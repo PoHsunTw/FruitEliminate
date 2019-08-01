@@ -18,7 +18,7 @@ public class candyLayout implements MouseMotionListener,MouseListener{
     private Thread te;
     private Clip expClip,winClip,loseClip,bgmClip;
     static Boolean debug = false;
-    static int hmtoflo = 4,hmLab = 5,hmwinImg = 7,hmloseImg = 6,hmstage = 5,onept = 35,hmturn = 40,hmExpAni = 9,hmFrtToSpawn = 12;//onept->單顆消除分數 hmturn->初始回合數
+    static int hmtoflo = 4,hmLab = 5,hmwinImg = 2,hmloseImg = 2,hmstage = 5,onept = 35,hmturn = 40,hmExpAni = 9,hmFrtToSpawn = 12;//onept->單顆消除分數 hmturn->初始回合數
     static String wtype = "Microsoft JhengHei";
     JFrame jfrm;
     Container jcp,btnCp,labCp;

@@ -1,4 +1,5 @@
 @echo off
-DEL *.class
 javac -Xlint:deprecation candyEliminate.java
 java candyEliminate
+DEL *.class
+timeout /t 2
