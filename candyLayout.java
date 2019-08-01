@@ -182,7 +182,7 @@ public class candyLayout implements MouseMotionListener,MouseListener{
         //=====¸ü¤Jµ²§À¹ÏÀÉ
         int randtmp;
         try{
-            randtmp = (int)(Math.random()*(hmwinImg-1)+1);
+            randtmp = (int)(Math.random()*(hmwinImg)+1);
             BufferedImage bi = ImageIO.read(getClass().getResource("resources/win/"+randtmp+".jpg"));
             winimg = bi;
             if(bi.getHeight()>500){
@@ -193,7 +193,7 @@ public class candyLayout implements MouseMotionListener,MouseListener{
                 winimg = scaledBI;
             }
             if(debug) System.out.println("winimg:"+randtmp);
-            randtmp = (int)(Math.random()*(hmloseImg-1)+1);
+            randtmp = (int)(Math.random()*(hmloseImg)+1);
             bi = ImageIO.read(getClass().getResource("resources/lose/"+randtmp+".jpg"));
             loseimg = bi;
             if(bi.getHeight()>500){
